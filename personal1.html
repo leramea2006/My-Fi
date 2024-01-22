@@ -14,7 +14,7 @@
       <a style="color:blue;" class="tablink" onclick="openPage('Aboutme')">About me</a>
       <a style="color:blue;" class="tablink" onclick="openPage('HTML')">HTML</a>
       <a style="color:blue;" class="tablink" onclick="openPage('Programming')">Programming</a>
-      <a style="color:blue;" href="Contactme.html" class="tablink" onclick="openPage('Contactme')">Contact me</a>
+      <a style="color:blue;" class="tablink" onclick="openPage('Contactme')">Contact me</a>
       </nav>
     <h2 id="demo"></h2>
   </header>
@@ -183,8 +183,47 @@ and I'm the younger of my siblings.</p> <h3><p style="color:black">I'm just a si
       
     </div>
         
-    <div id="Contactme.html" class="tabcontent">
-      
+    <div id="Contactme" class="tabcontent">
+      <h1 style="color:black;" >CONTACT ME HERE</h1>
+         <br><br>
+      <h2><table>
+  
+          <tr>
+            <th style="color: black;">GMAIL:</th>
+            <th style="color:pink;"> abetsano12@gmail.com</th>
+          </tr>
+          <tr>
+            <th style="color: black;">FB NAME:</th>
+            <th><a style="color: pink;" target="_blank" href="https://www.facebook.com/leramea.abestano">Lera Mae Udtohan Abestano  </th>
+            </tr>
+            <th style="color:black;">INSTAGRAM:</th>
+            <th><a style="color:pink;" target="_blank" href="https://www.instagram.com/leramae_a/">leramae_a</th>
+          </tr>
+          <th style="color:black;">TIKTOK:</th>
+          <th><a style="color:pink;" target="_blank" href="https://www.tiktok.com/@leramaeabestano">leramaeabestano</th>
+        </table></h2>
+    </div>
+    <div id="Form" class="Form-box">
+    <form  id="myForm" class="Login-form">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" name="uname" required>
+        <label>Username</label>
+        <ion-icon name="mail"></ion-icon>
+      </div>
+      <div class="input-box">
+        <input type="password" required>
+        <label>Password</label>
+        <ion-icon name="lock"></ion-icon>
+      </div>
+      <div class="checkbox">
+        
+        <h5 >Forgot password ?</h5>
+      </div>
+      <input type="button" class="submit-btn" onclick="myFunction()" value="submit">
+      <h5 class="Register-btn">Dont have an account ? register</h5> 
+    </form>
+    </div>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="script.js"></script>
            
