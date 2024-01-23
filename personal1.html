@@ -93,28 +93,25 @@ and I'm the younger of my siblings.</p> <h3><p style="color:black">I'm just a si
           <th><a style="color:pink;" target="_blank" href="https://www.tiktok.com/@leramaeabestano">leramaeabestano</th>
         </table></h2>
     </div>
-          <body>
-        <div id="Form" class="Form-box">
-    <form  id="myForm" class="Login-form">
-      <h1>Login</h1>
-      <div class="input-box">
-        <input type="text" name="uname" required>
-        <label>Username</label>
-        <ion-icon name="mail"></ion-icon>
-      </div>
-      <div class="input-box">
-        <input type="password" required>
-        <label>Password</label>
-        <ion-icon name="lock"></ion-icon>
-      </div>
-      <div class="checkbox">
+          <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
         
-        <h5 >Forgot password ?</h5>
-      </div>
-      <input type="button" class="submit-btn" onclick="myFunction()" value="submit">
-      <h5 class="Register-btn">Dont have an account ? register</h5> 
-    </form>
-    </div> 
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
           </body>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="script.js"></script>
