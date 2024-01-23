@@ -134,7 +134,7 @@ header nav a:hover::before{
 	transform: translateX(100%);
 }
 .change-form .Register-form{
-	transform: translateX(0%);
+	transform: translateX(100%);
 }
 table, th, td {
   border: 1px solid black;
